@@ -21,24 +21,27 @@ public class PlayerController : MonoBehaviour
     private bool jumpPressed;
     private bool canJump;
     private bool readyToClear;
-    private int direction = 1;
+    private int attackDirection = 0;
+    private int playerDirection = 1;
+    private float verticalInput = 0;
     private Animator animator;
     private BoxCollider2D boxCollider;
     private Rigidbody2D rigidbody;
-    private SpriteRenderer spriteRenderer;
     void Start()
     {
         animator = GetComponent<Animator>();
         boxCollider = GetComponent<BoxCollider2D>();
         rigidbody = GetComponent<Rigidbody2D>();
-        spriteRenderer= GetComponent<SpriteRenderer>();
     }
 
     void FixedUpdate(){
         CheckEnvironment();
         GroundMovement();
         AirMovement();
-        Attack();
+        if (AttackPressed)
+        {
+            Attack();
+        }
         readyToClear = true;
     }
 
@@ -53,17 +56,26 @@ public class PlayerController : MonoBehaviour
 
     void Attack()
     {
-        if (AttackPressed)
+        RaycastHit2D hit;
+        if(verticalInput==0)
         {
-            animator.SetTrigger("Attack");
-            RaycastHit2D hit = BoxCast(direction * Vector2.right* (boxCollider.bounds.size.x * 0.5f + boxCastOffset), new Vector2(boxCastSize, boxCastSize), direction * Vector2.right, attackDistance, 1<<gameObject.layer);
-            if (hit.collider)
-            {
-                Attackables attackable=hit.collider.GetComponent<Attackables>();
-                attackable.Hit();
-            }
+            attackDirection = 0;
+            hit = BoxCast(playerDirection * Vector2.right * (boxCollider.bounds.size.x * 0.5f + boxCastOffset), new Vector2(boxCastSize, boxCastSize), playerDirection * Vector2.right, attackDistance, 1 << gameObject.layer);
+
         }
-            
+        else
+        {
+            attackDirection = verticalInput>0?1:-1;
+            hit = BoxCast(attackDirection * Vector2.up * (boxCollider.bounds.size.y * 0.5f + boxCastOffset), new Vector2(boxCastSize, boxCastSize), attackDirection * Vector2.up, attackDistance, 1 << gameObject.layer);
+
+        }
+        animator.SetInteger("Attack Direction",attackDirection);
+        animator.SetTrigger("Attack");
+        if (hit.collider)
+        {
+            Attackables attackable=hit.collider.GetComponent<Attackables>();
+            attackable.Hit();
+        }    
     }
     void AirMovement()
     {
@@ -91,15 +103,16 @@ public class PlayerController : MonoBehaviour
         {
             return;
         }
+        AttackPressed = false;
         jumpPressed = false;
         readyToClear = false;
-        AttackPressed = false;
+        verticalInput = 0f;
     }
     void GroundMovement()
     {
         float xSpeed= walkSpeed*Input.GetAxis("Horizontal");
         rigidbody.linearVelocity=new Vector2(xSpeed,rigidbody.linearVelocity.y);
-        if (xSpeed * direction < 0f)
+        if (xSpeed * playerDirection < 0f)
         {
             FlipPlayer();
         }
@@ -107,13 +120,14 @@ public class PlayerController : MonoBehaviour
 
     void ProcessInputs() 
     {
-        jumpPressed = jumpPressed || Input.GetButtonDown("Jump");
         AttackPressed = AttackPressed || Input.GetButtonDown("Fire1");
+        jumpPressed = jumpPressed || Input.GetButtonDown("Jump");
+        verticalInput = Input.GetAxis("Vertical");
     }
     void FlipPlayer()
     {
-        spriteRenderer.flipX=!spriteRenderer.flipX;
-        direction *= -1;
+        transform.localScale = new Vector3(-transform.localScale.x,transform.localScale.y,transform.localScale.z);
+        playerDirection *= -1;
     }
     RaycastHit2D BoxCast(Vector2 start,Vector2 size, Vector2 direction, float distance, LayerMask layer)
     {

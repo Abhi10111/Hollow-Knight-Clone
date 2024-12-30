@@ -3,6 +3,7 @@ using UnityEngine;
 public class Destructables : Attackables
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
+    [SerializeField] float destroyDelay = 0.5f;
     void Start()
     {
         
@@ -16,6 +17,6 @@ public class Destructables : Attackables
 
     override public void Hit()
     {
-        Destroy(gameObject);
+        Destroy(gameObject,destroyDelay);
     }
 }
