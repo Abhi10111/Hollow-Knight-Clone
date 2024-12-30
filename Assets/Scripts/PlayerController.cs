@@ -25,20 +25,21 @@ public class PlayerController : MonoBehaviour
     private Animator animator;
     private BoxCollider2D boxCollider;
     private Rigidbody2D rigidbody;
-    private SpriteRenderer spriteRenderer;
     void Start()
     {
         animator = GetComponent<Animator>();
         boxCollider = GetComponent<BoxCollider2D>();
         rigidbody = GetComponent<Rigidbody2D>();
-        spriteRenderer= GetComponent<SpriteRenderer>();
     }
 
     void FixedUpdate(){
         CheckEnvironment();
         GroundMovement();
         AirMovement();
-        Attack();
+        if (AttackPressed)
+        {
+            Attack();
+        }
         readyToClear = true;
     }
 
@@ -53,17 +54,13 @@ public class PlayerController : MonoBehaviour
 
     void Attack()
     {
-        if (AttackPressed)
+        animator.SetTrigger("Attack");
+        RaycastHit2D hit = BoxCast(direction * Vector2.right* (boxCollider.bounds.size.x * 0.5f + boxCastOffset), new Vector2(boxCastSize, boxCastSize), direction * Vector2.right, attackDistance, 1<<gameObject.layer);
+        if (hit.collider)
         {
-            animator.SetTrigger("Attack");
-            RaycastHit2D hit = BoxCast(direction * Vector2.right* (boxCollider.bounds.size.x * 0.5f + boxCastOffset), new Vector2(boxCastSize, boxCastSize), direction * Vector2.right, attackDistance, 1<<gameObject.layer);
-            if (hit.collider)
-            {
-                Attackables attackable=hit.collider.GetComponent<Attackables>();
-                attackable.Hit();
-            }
-        }
-            
+            Attackables attackable=hit.collider.GetComponent<Attackables>();
+            attackable.Hit();
+        }    
     }
     void AirMovement()
     {
@@ -112,7 +109,7 @@ public class PlayerController : MonoBehaviour
     }
     void FlipPlayer()
     {
-        spriteRenderer.flipX=!spriteRenderer.flipX;
+        transform.localScale = new Vector3(-transform.localScale.x,transform.localScale.y,transform.localScale.z);
         direction *= -1;
     }
     RaycastHit2D BoxCast(Vector2 start,Vector2 size, Vector2 direction, float distance, LayerMask layer)
