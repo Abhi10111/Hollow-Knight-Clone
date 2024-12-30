@@ -2,6 +2,7 @@ using System;
 using Unity.VisualScripting;
 using UnityEditor.Tilemaps;
 using UnityEngine;
+using static UnityEditor.Searcher.SearcherWindow.Alignment;
 using static UnityEngine.UI.Image;
 
 public class PlayerController : MonoBehaviour
@@ -57,7 +58,7 @@ public class PlayerController : MonoBehaviour
     void Attack()
     {
         RaycastHit2D hit;
-        if(verticalInput==0)
+        if(verticalInput==0f)
         {
             attackDirection = 0;
             hit = BoxCast(playerDirection * Vector2.right * (boxCollider.bounds.size.x * 0.5f + boxCastOffset), new Vector2(boxCastSize, boxCastSize), playerDirection * Vector2.right, attackDistance, 1 << gameObject.layer);
@@ -122,7 +123,7 @@ public class PlayerController : MonoBehaviour
     {
         AttackPressed = AttackPressed || Input.GetButtonDown("Fire1");
         jumpPressed = jumpPressed || Input.GetButtonDown("Jump");
-        verticalInput = Input.GetAxis("Vertical");
+        verticalInput += Input.GetAxis("Vertical");
     }
     void FlipPlayer()
     {
