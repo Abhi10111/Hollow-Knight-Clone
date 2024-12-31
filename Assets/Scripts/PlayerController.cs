@@ -18,6 +18,7 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float jumpSpeed = 10.0f;
     [SerializeField] float walkSpeed = 4.0f;
     [SerializeField] LayerMask groundLayer;
+    [SerializeField] Transform startPostion;
     bool AttackPressed;
     private bool jumpPressed;
     private bool canJump;
@@ -33,6 +34,10 @@ public class PlayerController : MonoBehaviour
         animator = GetComponent<Animator>();
         boxCollider = GetComponent<BoxCollider2D>();
         rigidbody = GetComponent<Rigidbody2D>();
+        if (startPostion)
+        {
+            transform.position = startPostion.position;
+        }
     }
 
     void FixedUpdate(){

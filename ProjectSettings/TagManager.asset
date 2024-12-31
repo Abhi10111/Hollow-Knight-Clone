@@ -53,6 +53,9 @@ TagManager:
   - name: Fog_2
     uniqueID: 2356823663
     locked: 0
+  - name: Background_1
+    uniqueID: 2774879069
+    locked: 0
   - name: Wall
     uniqueID: 1148719941
     locked: 0
