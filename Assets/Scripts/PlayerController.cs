@@ -75,7 +75,7 @@ public class PlayerController : MonoBehaviour
         if (hit.collider)
         {
             Attackables attackable=hit.collider.GetComponent<Attackables>();
-            attackable.Hit();
+            attackable.Hit(hit);
         }    
     }
     void AirMovement()
