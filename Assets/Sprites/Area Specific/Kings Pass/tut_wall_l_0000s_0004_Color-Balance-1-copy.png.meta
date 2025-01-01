@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      tut_wall_l_0000s_0004_Color-Balance-1-copy_0: 7016051310238885081
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,0 +1,1207 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.32f1 (b2e806cf271c) revision 11724806'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 16236 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.32f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/abhis/Hollow Knight
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51107
+-job-worker-count
+3
+-background-job-worker-count
+8
+-gc-helper-count
+1
+Successfully changed project path to: C:/Users/abhis/Hollow Knight
+C:/Users/abhis/Hollow Knight
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [12940]  Target information:
+
+Player connection [12940]  * "[IP] 192.168.1.20 [Port] 0 [Flags] 2 [Guid] 3467202021 [EditorId] 3467202021 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-HGSESVR) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [12940] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [12940] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 2.60 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.32f1 (b2e806cf271c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/abhis/Hollow Knight/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c8d)
+    Vendor:   NVIDIA
+    VRAM:     4019 MB
+    Driver:   30.0.15.1278
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56636
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.32f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006244 seconds.
+- Loaded All Assemblies, in  0.686 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.692 seconds
+Domain Reload Profiling: 1374ms
+	BeginReloadAssembly (203ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (83ms)
+	LoadAllAssembliesAndSetupDomain (325ms)
+		LoadAssemblies (201ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (320ms)
+			TypeCache.Refresh (318ms)
+				TypeCache.ScanAssembly (293ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (693ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (606ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (46ms)
+			SetLoadedEditorAssemblies (8ms)
+			BeforeProcessingInitializeOnLoad (103ms)
+			ProcessInitializeOnLoadAttributes (347ms)
+			ProcessInitializeOnLoadMethodAttributes (101ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.595 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.62 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.311 seconds
+Domain Reload Profiling: 2897ms
+	BeginReloadAssembly (320ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (155ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (73ms)
+	LoadAllAssembliesAndSetupDomain (1013ms)
+		LoadAssemblies (700ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (517ms)
+			TypeCache.Refresh (374ms)
+				TypeCache.ScanAssembly (349ms)
+			BuildScriptInfoCaches (120ms)
+			ResolveRequiredComponents (20ms)
+	FinalizeReload (1312ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1103ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (198ms)
+			ProcessInitializeOnLoadAttributes (720ms)
+			ProcessInitializeOnLoadMethodAttributes (163ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 2.10 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 207 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6920 unused Assets / (4.9 MB). Loaded Objects now: 7599.
+Memory consumption went from 171.2 MB to 166.3 MB.
+Total: 15.602700 ms (FindLiveObjects: 1.170500 ms CreateObjectMapping: 1.627900 ms MarkObjects: 9.076100 ms  DeleteObjects: 3.726900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 4168.839302 seconds.
+  path: Assets/Sprites/Grass/grass1_idle_00014.png
+  artifactKey: Guid(ff8c875b1d1c6b74b860d8917a2083ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Grass/grass1_idle_00014.png using Guid(ff8c875b1d1c6b74b860d8917a2083ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '86b7dbf9057c900f0f5ee95f573dc0cc') in 0.1725364 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Sprites/Grass/grass1_idle_00006.png
+  artifactKey: Guid(7e03d3096ead2ee4b9b0b572076e9cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Grass/grass1_idle_00006.png using Guid(7e03d3096ead2ee4b9b0b572076e9cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '91858bf9f196c0133206cbf45773c1ba') in 0.0257465 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.703426 seconds.
+  path: Assets/Sprites/Grass/grass1_idle_00006.png
+  artifactKey: Guid(7e03d3096ead2ee4b9b0b572076e9cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Grass/grass1_idle_00006.png using Guid(7e03d3096ead2ee4b9b0b572076e9cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c9ee83f060af436c63a6b2976cc86385') in 0.0238716 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.739212 seconds.
+  path: Assets/Sprites/Grass/grass1_idle_00014.png
+  artifactKey: Guid(ff8c875b1d1c6b74b860d8917a2083ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Grass/grass1_idle_00014.png using Guid(ff8c875b1d1c6b74b860d8917a2083ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0d6509fbf1904fe4c270dbe0760bdae8') in 0.0273526 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 29.044814 seconds.
+  path: Assets/Animations/Grass 1 idle.anim
+  artifactKey: Guid(6a202a98cf201e54ba716faf651629c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Grass 1 idle.anim using Guid(6a202a98cf201e54ba716faf651629c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f4104baa2193ab5e446d84ac1b95119') in 0.0014868 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.063 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 1.58 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.370 seconds
+Domain Reload Profiling: 2429ms
+	BeginReloadAssembly (305ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (23ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (67ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (643ms)
+		LoadAssemblies (469ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (304ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (276ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1370ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1069ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (217ms)
+			ProcessInitializeOnLoadAttributes (719ms)
+			ProcessInitializeOnLoadMethodAttributes (108ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 2.01 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6918 unused Assets / (5.2 MB). Loaded Objects now: 7622.
+Memory consumption went from 146.4 MB to 141.1 MB.
+Total: 12.878000 ms (FindLiveObjects: 1.187000 ms CreateObjectMapping: 1.714800 ms MarkObjects: 6.163100 ms  DeleteObjects: 3.811500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 146.854299 seconds.
+  path: Assets/Animations/grass1_idle_00000_0.controller
+  artifactKey: Guid(7eb19eacfeffaac4ba623ecf367aa968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/grass1_idle_00000_0.controller using Guid(7eb19eacfeffaac4ba623ecf367aa968) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3cc5fd12673ea246e16d6f15116c64d3') in 0.0282265 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.017187 seconds.
+  path: Assets/Sprites/Grass/grass2_idle_00000.png
+  artifactKey: Guid(ea56387abf392db40b6cf7b60f862f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Grass/grass2_idle_00000.png using Guid(ea56387abf392db40b6cf7b60f862f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b7a7353b04db6f6796e826d680285193') in 0.0702673 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Sprites/Grass/grass2_idle_00015.png
+  artifactKey: Guid(aada2983ea5df7b41850cfcb61d75ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Grass/grass2_idle_00015.png using Guid(aada2983ea5df7b41850cfcb61d75ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '19947b5fed8fd2cca49ce9c007382dce') in 0.0224724 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.758526 seconds.
+  path: Assets/Sprites/Grass/grass2_idle_00000.png
+  artifactKey: Guid(ea56387abf392db40b6cf7b60f862f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Grass/grass2_idle_00000.png using Guid(ea56387abf392db40b6cf7b60f862f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '198a1335867511bfdc9c792fe6b24bc4') in 0.0215876 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Sprites/Grass/grass2_idle_00015.png
+  artifactKey: Guid(aada2983ea5df7b41850cfcb61d75ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Grass/grass2_idle_00015.png using Guid(aada2983ea5df7b41850cfcb61d75ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '94ca42c94a77febd6adacdf990426758') in 0.0178324 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 61.466644 seconds.
+  path: Assets/Sprites/Grass/grass2_idle_00015.png
+  artifactKey: Guid(aada2983ea5df7b41850cfcb61d75ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Grass/grass2_idle_00015.png using Guid(aada2983ea5df7b41850cfcb61d75ffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b1338396dd49f9d6048d6e15e0f3dab2') in 0.0211095 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 123.241845 seconds.
+  path: Assets/Props/Grass
+  artifactKey: Guid(1ce8d7eb2eedd8a4dbe60d26010709ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Grass using Guid(1ce8d7eb2eedd8a4dbe60d26010709ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c82f19a057dc53497f6cad3a88683ef2') in 0.0010312 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.965677 seconds.
+  path: Assets/Props/Grass/grass2_idle_00000_0.prefab
+  artifactKey: Guid(4c5ecff4eed4ee14294eecd7d3a2088b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Grass/grass2_idle_00000_0.prefab using Guid(4c5ecff4eed4ee14294eecd7d3a2088b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c12594bde13a0081c4587c4ae4c192ba') in 0.5293549 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.067723 seconds.
+  path: Assets/Props/Grass/Grass2.prefab
+  artifactKey: Guid(4c5ecff4eed4ee14294eecd7d3a2088b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Grass/Grass2.prefab using Guid(4c5ecff4eed4ee14294eecd7d3a2088b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0376b5c41e44437d7939b7868a9329cf') in 0.011424 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 100.417844 seconds.
+  path: Assets/Platforms/Prefabs/Floor.prefab
+  artifactKey: Guid(38bd6e2878fd60a4daf05674979a3e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platforms/Prefabs/Floor.prefab using Guid(38bd6e2878fd60a4daf05674979a3e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e34277013a06dbae437636fab4648c97') in 0.0185049 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.830410 seconds.
+  path: Assets/Platforms/Prefabs/Floor.prefab
+  artifactKey: Guid(38bd6e2878fd60a4daf05674979a3e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platforms/Prefabs/Floor.prefab using Guid(38bd6e2878fd60a4daf05674979a3e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f9e8e2f1a0e47d995f785a58813b9872') in 0.0163624 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.510415 seconds.
+  path: Assets/Platforms/Prefabs/Floor.prefab
+  artifactKey: Guid(38bd6e2878fd60a4daf05674979a3e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platforms/Prefabs/Floor.prefab using Guid(38bd6e2878fd60a4daf05674979a3e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7a8ff278cdc95433bfa4f16574e24474') in 0.0090891 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.665523 seconds.
+  path: Assets/Platforms/Prefabs/Floor.prefab
+  artifactKey: Guid(38bd6e2878fd60a4daf05674979a3e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platforms/Prefabs/Floor.prefab using Guid(38bd6e2878fd60a4daf05674979a3e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '20a11e1ef2a21a533c0bc5d0df9ef5cb') in 0.0080378 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.047137 seconds.
+  path: Assets/Platforms/Prefabs/Floor.prefab
+  artifactKey: Guid(38bd6e2878fd60a4daf05674979a3e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platforms/Prefabs/Floor.prefab using Guid(38bd6e2878fd60a4daf05674979a3e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '053474e0953a6f6a93b39e15f5667efe') in 0.0089778 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.393586 seconds.
+  path: Assets/Platforms/Prefabs/Floor.prefab
+  artifactKey: Guid(38bd6e2878fd60a4daf05674979a3e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Platforms/Prefabs/Floor.prefab using Guid(38bd6e2878fd60a4daf05674979a3e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6580b73cb805d71df29cd310db5a15f1') in 0.0097017 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
+
+========================================================================
+Received Import Request.
+  Time since last request: 87.182274 seconds.
+  path: Assets/Sprites/Grass/grass2_idle_00023.png
+  artifactKey: Guid(551e9f26eba2fb942942a446002cc577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Grass/grass2_idle_00023.png using Guid(551e9f26eba2fb942942a446002cc577) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7d138ac195a5a8da386147fb5515871b') in 0.0262598 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Sprites/Grass/grass3_idle_00011.png
+  artifactKey: Guid(7ca0b41a228d9274cbd79fc09ba34f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Grass/grass3_idle_00011.png using Guid(7ca0b41a228d9274cbd79fc09ba34f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dbd3551b08c1388c5f071db357263495') in 0.0252013 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Sprites/Grass/grass3_idle_00007.png
+  artifactKey: Guid(4bfdf57fac5dfb5499f85236017c85f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Grass/grass3_idle_00007.png using Guid(4bfdf57fac5dfb5499f85236017c85f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3a3b4c56ba70cef31c373193df0aa834') in 0.0193282 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.486455 seconds.
+  path: Assets/Animations/Grass 2 idle.anim
+  artifactKey: Guid(3c43bbf2795421d4aabaf9e4eb413fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Grass 2 idle.anim using Guid(3c43bbf2795421d4aabaf9e4eb413fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3d8f94438edc4df9e943c0ef0cb77df8') in 0.0015472 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 56.570823 seconds.
+  path: Assets/Sprites/Grass/grass2_idle_00023.png
+  artifactKey: Guid(551e9f26eba2fb942942a446002cc577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Grass/grass2_idle_00023.png using Guid(551e9f26eba2fb942942a446002cc577) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ddf86f3e91fc9e8527b13b11f9c27e7e') in 0.0168995 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.809761 seconds.
+  path: Assets/Props/Grass/Grass2.prefab
+  artifactKey: Guid(4c5ecff4eed4ee14294eecd7d3a2088b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Grass/Grass2.prefab using Guid(4c5ecff4eed4ee14294eecd7d3a2088b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '672bb17383d007e0cbe6cd9b739bafd5') in 0.0108602 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.095791 seconds.
+  path: Assets/Props/Grass/grass2_idle_00000_0.prefab
+  artifactKey: Guid(4c0e06b0a5e7c164a9e3fa18692a472e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Grass/grass2_idle_00000_0.prefab using Guid(4c0e06b0a5e7c164a9e3fa18692a472e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e0722dbc6b882764ab16c5bbabecde6f') in 0.0158874 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.009820 seconds.
+  path: Assets/Props/Grass/Grass3.prefab
+  artifactKey: Guid(4c0e06b0a5e7c164a9e3fa18692a472e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Grass/Grass3.prefab using Guid(4c0e06b0a5e7c164a9e3fa18692a472e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bb62a2d2e240e5f379ff5c1b9b63aba8') in 0.0077723 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.809534 seconds.
+  path: Assets/Sprites/Grass/grass4_idle_00000.png
+  artifactKey: Guid(d6b5eef85c8458041875fed414359560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Grass/grass4_idle_00000.png using Guid(d6b5eef85c8458041875fed414359560) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6e3623417bb18f0ca9fd5c60b42c465b') in 0.0275344 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.294173 seconds.
+  path: Assets/Sprites/Grass/grass4_idle_00017.png
+  artifactKey: Guid(7d67f3cbdf0e92646b85cb579fe3b844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Grass/grass4_idle_00017.png using Guid(7d67f3cbdf0e92646b85cb579fe3b844) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fe67596bc5d3e032e6a4400889e1d4f6') in 0.0221094 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 101.909206 seconds.
+  path: Assets/Sprites/Grass/grass3_idle_00000.png
+  artifactKey: Guid(3ba5b9df6dd51064f9e5962923f815b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Grass/grass3_idle_00000.png using Guid(3ba5b9df6dd51064f9e5962923f815b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '27fe031f57d151daf202165247ba940d') in 0.0565866 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.383501 seconds.
+  path: Assets/Sprites/Grass/grass3_idle_00011.png
+  artifactKey: Guid(7ca0b41a228d9274cbd79fc09ba34f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Grass/grass3_idle_00011.png using Guid(7ca0b41a228d9274cbd79fc09ba34f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cf9523660f62fb51af5d191d7c15ff7d') in 0.045194 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.202233 seconds.
+  path: Assets/Sprites/Grass/grass3_idle_00000.png
+  artifactKey: Guid(3ba5b9df6dd51064f9e5962923f815b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Grass/grass3_idle_00000.png using Guid(3ba5b9df6dd51064f9e5962923f815b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dab3d74bfd9cd68e14aebc370b6fac2a') in 0.0213446 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 62.667805 seconds.
+  path: Assets/Props/Grass/Grass2.prefab
+  artifactKey: Guid(4c5ecff4eed4ee14294eecd7d3a2088b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Grass/Grass2.prefab using Guid(4c5ecff4eed4ee14294eecd7d3a2088b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '746da1ed32356d1d593bd8bebc4d826e') in 0.0130347 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.541770 seconds.
+  path: Assets/Sprites/Grass/grass5_idle_00000.png
+  artifactKey: Guid(ee7b93d6b626cc04b9d3054e67fe6cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Grass/grass5_idle_00000.png using Guid(ee7b93d6b626cc04b9d3054e67fe6cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ddd6d5982f5b1fe24e93d6abac5fc24c') in 0.0188766 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 31.656669 seconds.
+  path: Assets/Sprites/Grass/grass3_idle_00000.png
+  artifactKey: Guid(3ba5b9df6dd51064f9e5962923f815b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Grass/grass3_idle_00000.png using Guid(3ba5b9df6dd51064f9e5962923f815b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '42bb821274a76b2f7eb60334af05999c') in 0.0232911 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 144.893761 seconds.
+  path: Assets/Sprites/Grass/grass3_idle_00011.png
+  artifactKey: Guid(7ca0b41a228d9274cbd79fc09ba34f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Grass/grass3_idle_00011.png using Guid(7ca0b41a228d9274cbd79fc09ba34f1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd3c20eb13bec3fd474636d5d660b5fd') in 0.0250957 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 73.177959 seconds.
+  path: Assets/Props/Grass/Grass2.prefab
+  artifactKey: Guid(4c5ecff4eed4ee14294eecd7d3a2088b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Grass/Grass2.prefab using Guid(4c5ecff4eed4ee14294eecd7d3a2088b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '76b6de4d13d4a081c3cf18317f98f541') in 0.0119619 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.398990 seconds.
+  path: Assets/Props/Grass/Grass3.prefab
+  artifactKey: Guid(4c0e06b0a5e7c164a9e3fa18692a472e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Grass/Grass3.prefab using Guid(4c0e06b0a5e7c164a9e3fa18692a472e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '94d3f29982b251c4b9447d15c09f60ac') in 0.0078953 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.961066 seconds.
+  path: Assets/Props/Grass/Grass3.prefab
+  artifactKey: Guid(4c0e06b0a5e7c164a9e3fa18692a472e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Grass/Grass3.prefab using Guid(4c0e06b0a5e7c164a9e3fa18692a472e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ae3dbd77b07c560f9af5d0a5a7465f33') in 0.0019308 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.113182 seconds.
+  path: Assets/Props/Grass/Grass3.prefab
+  artifactKey: Guid(4c0e06b0a5e7c164a9e3fa18692a472e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Grass/Grass3.prefab using Guid(4c0e06b0a5e7c164a9e3fa18692a472e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'db988f71a836149848e56c70e13b13bd') in 0.0126858 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.880797 seconds.
+  path: Assets/Props/Grass/Grass3.prefab
+  artifactKey: Guid(4c0e06b0a5e7c164a9e3fa18692a472e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Grass/Grass3.prefab using Guid(4c0e06b0a5e7c164a9e3fa18692a472e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f7c6f59ea3752adb552ee29e40da519d') in 0.0149869 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.490014 seconds.
+  path: Assets/Props/Grass/Grass3.prefab
+  artifactKey: Guid(4c0e06b0a5e7c164a9e3fa18692a472e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Grass/Grass3.prefab using Guid(4c0e06b0a5e7c164a9e3fa18692a472e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '244de6e2f8b894f56a917f7f49caa47b') in 0.0162118 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.119101 seconds.
+  path: Assets/Props/Grass/Grass3.prefab
+  artifactKey: Guid(4c0e06b0a5e7c164a9e3fa18692a472e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Grass/Grass3.prefab using Guid(4c0e06b0a5e7c164a9e3fa18692a472e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a92536e903be9285b5dcd26a08945c4e') in 0.0165937 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.991879 seconds.
+  path: Assets/Animations/Grass/Grass 3 Idle.anim
+  artifactKey: Guid(a02cd5925aa1be744b5fb0a2e010a9b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Grass/Grass 3 Idle.anim using Guid(a02cd5925aa1be744b5fb0a2e010a9b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a6e996398905426487dd763fae27cca7') in 0.0013629 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 92.304733 seconds.
+  path: Assets/Props/Grass/Grass3.prefab
+  artifactKey: Guid(4c0e06b0a5e7c164a9e3fa18692a472e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Grass/Grass3.prefab using Guid(4c0e06b0a5e7c164a9e3fa18692a472e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2e2fb95ca685a0dd9c4dd7acd137bbd3') in 0.0169593 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.147 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.49 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.319 seconds
+Domain Reload Profiling: 2461ms
+	BeginReloadAssembly (291ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (31ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (81ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (40ms)
+	LoadAllAssembliesAndSetupDomain (743ms)
+		LoadAssemblies (568ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (302ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (271ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1319ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1028ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (220ms)
+			ProcessInitializeOnLoadAttributes (678ms)
+			ProcessInitializeOnLoadMethodAttributes (109ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 2.91 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6918 unused Assets / (4.9 MB). Loaded Objects now: 7689.
+Memory consumption went from 149.2 MB to 144.3 MB.
+Total: 12.613500 ms (FindLiveObjects: 1.435900 ms CreateObjectMapping: 1.956100 ms MarkObjects: 5.939700 ms  DeleteObjects: 3.280700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 35.090265 seconds.
+  path: Assets/Props/Grass/Grass3 1.prefab
+  artifactKey: Guid(c2e2f9f6d59b51a45b1e63529323fd59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Grass/Grass3 1.prefab using Guid(c2e2f9f6d59b51a45b1e63529323fd59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd74ed6a44ecc2ebfb9f396a11bbef331') in 0.615303 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.937985 seconds.
+  path: Assets/Props/Grass/Grass3 1.prefab
+  artifactKey: Guid(c2e2f9f6d59b51a45b1e63529323fd59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Grass/Grass3 1.prefab using Guid(c2e2f9f6d59b51a45b1e63529323fd59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '49bd1f6f049b5d0cce67ac3d6450a4b0') in 0.0162979 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.481925 seconds.
+  path: Assets/Props/Grass/Grass 4.prefab
+  artifactKey: Guid(c2e2f9f6d59b51a45b1e63529323fd59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Grass/Grass 4.prefab using Guid(c2e2f9f6d59b51a45b1e63529323fd59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '218ab2eee84a38437710c1fc9d30c911') in 0.0159627 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.188350 seconds.
+  path: Assets/Props/Grass/Grass4.prefab
+  artifactKey: Guid(c2e2f9f6d59b51a45b1e63529323fd59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Grass/Grass4.prefab using Guid(c2e2f9f6d59b51a45b1e63529323fd59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'daf6144283950a8ffe4c092e88d04904') in 0.0147253 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.367629 seconds.
+  path: Assets/Animations/Grass
+  artifactKey: Guid(c7f576ff7f61b4040b9e63f190d41177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Grass using Guid(c7f576ff7f61b4040b9e63f190d41177) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a776afd5babd6b40cfa65205af4180df') in 0.0008357 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.291987 seconds.
+  path: Assets/Animations/Grass/Grass3.controller
+  artifactKey: Guid(5cbc607b969af24449a3e09fbfe3f3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Grass/Grass3.controller using Guid(5cbc607b969af24449a3e09fbfe3f3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c11d68ff30588dfa39ca10f8dcf467e4') in 0.0014681 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.660008 seconds.
+  path: Assets/Animations/Grass/Grass3 1.controller
+  artifactKey: Guid(1f6b792119f42784eb4eadfaeeb06df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Grass/Grass3 1.controller using Guid(1f6b792119f42784eb4eadfaeeb06df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '62ad77b33d9f710732d988c212810049') in 0.0017529 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.661661 seconds.
+  path: Assets/Animations/Grass/Grass4.controller
+  artifactKey: Guid(1f6b792119f42784eb4eadfaeeb06df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Grass/Grass4.controller using Guid(1f6b792119f42784eb4eadfaeeb06df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '050f4769e059b659a3923c47aa1fd596') in 0.0014531 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.258507 seconds.
+  path: Assets/Animations/Grass/Grass 3 Idle.anim
+  artifactKey: Guid(a02cd5925aa1be744b5fb0a2e010a9b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Grass/Grass 3 Idle.anim using Guid(a02cd5925aa1be744b5fb0a2e010a9b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1af02b1074ba9afa1addb1d0f37299ea') in 0.001215 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.909102 seconds.
+  path: Assets/Animations/Grass/Grass 3 Idle 1.anim
+  artifactKey: Guid(b4f27edc65239b24bbdd09267d0a4447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Grass/Grass 3 Idle 1.anim using Guid(b4f27edc65239b24bbdd09267d0a4447) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b616ab1997f3cadcad2b7bbbbfd666c8') in 0.0011158 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 12.014455 seconds.
+  path: Assets/Animations/Grass/Grass 4 Idle.anim
+  artifactKey: Guid(b4f27edc65239b24bbdd09267d0a4447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Grass/Grass 4 Idle.anim using Guid(b4f27edc65239b24bbdd09267d0a4447) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0945fa62ab94a4e8a61f4ae8e9e1f3a4') in 0.0011537 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.604130 seconds.
+  path: Assets/Animations/Grass/Grass4.controller
+  artifactKey: Guid(1f6b792119f42784eb4eadfaeeb06df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Grass/Grass4.controller using Guid(1f6b792119f42784eb4eadfaeeb06df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '14e06fb4e48fb5dfa2ef6ae7088743db') in 0.0020782 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.681156 seconds.
+  path: Assets/Sprites/Grass/grass5_idle_00007.png
+  artifactKey: Guid(daaf853eccb1e714eb46b0899ae2cdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Grass/grass5_idle_00007.png using Guid(daaf853eccb1e714eb46b0899ae2cdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd18ec26f5972d8883baa3044ca3c2ec5') in 0.0419378 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.889017 seconds.
+  path: Assets/Sprites/Grass/grass5_idle_00023.png
+  artifactKey: Guid(f39307473fda14b42b1590f94ae7bf86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Grass/grass5_idle_00023.png using Guid(f39307473fda14b42b1590f94ae7bf86) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9ef143261a4f01bc6b92e7e83310e44b') in 0.0175486 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.294510 seconds.
+  path: Assets/Sprites/Grass/grass4_idle_00007.png
+  artifactKey: Guid(4b3f0f8a40ab4f445b4b41aaa57a9e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Grass/grass4_idle_00007.png using Guid(4b3f0f8a40ab4f445b4b41aaa57a9e98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '07b0f5f9e5b7e706d0ee1355b0f4a1a7') in 0.0238626 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.383079 seconds.
+  path: Assets/Sprites/Grass/grass4_idle_00017.png
+  artifactKey: Guid(7d67f3cbdf0e92646b85cb579fe3b844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Grass/grass4_idle_00017.png using Guid(7d67f3cbdf0e92646b85cb579fe3b844) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a1109d3464a427c8e4007277136cc55d') in 0.0237925 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.838231 seconds.
+  path: Assets/Sprites/Grass/grass4_idle_00023.png
+  artifactKey: Guid(840ff902fc9c52a4db15d8934afc9c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Grass/grass4_idle_00023.png using Guid(840ff902fc9c52a4db15d8934afc9c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b66a185b78fc5e8603d8fbcbcde3d7b7') in 0.0232243 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.756257 seconds.
+  path: Assets/Props/Grass/Grass4.prefab
+  artifactKey: Guid(c2e2f9f6d59b51a45b1e63529323fd59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Grass/Grass4.prefab using Guid(c2e2f9f6d59b51a45b1e63529323fd59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'afda05b9cae3981ee632aa664073081a') in 0.0166327 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.905722 seconds.
+  path: Assets/Sprites/Grass/grass4_idle_00000.png
+  artifactKey: Guid(d6b5eef85c8458041875fed414359560) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Grass/grass4_idle_00000.png using Guid(d6b5eef85c8458041875fed414359560) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '454f7b8bd2f40ac13f09d8559529cc82') in 0.0238046 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.026546 seconds.
+  path: Assets/Sprites/Grass/grass4_idle_00017.png
+  artifactKey: Guid(7d67f3cbdf0e92646b85cb579fe3b844) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Grass/grass4_idle_00017.png using Guid(7d67f3cbdf0e92646b85cb579fe3b844) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ce1dc9361c8be25a1b9f9f85684b732') in 0.0362349 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 71.191702 seconds.
+  path: Assets/Animations/Grass/Grass 4 Idle.anim
+  artifactKey: Guid(b4f27edc65239b24bbdd09267d0a4447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Grass/Grass 4 Idle.anim using Guid(b4f27edc65239b24bbdd09267d0a4447) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fcf301bf7bdf643ebb863464ce19ca1c') in 0.0016554 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.840537 seconds.
+  path: Assets/Animations/Grass/Grass 4 Idle 1.anim
+  artifactKey: Guid(ed60e66a0cdf37f47b5f1b73e9984fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Grass/Grass 4 Idle 1.anim using Guid(ed60e66a0cdf37f47b5f1b73e9984fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3f8b1e50a2037bc44a5e76214be0d1a3') in 0.0014318 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.678443 seconds.
+  path: Assets/Animations/Grass/Grass 45Idle.anim
+  artifactKey: Guid(ed60e66a0cdf37f47b5f1b73e9984fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Grass/Grass 45Idle.anim using Guid(ed60e66a0cdf37f47b5f1b73e9984fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e0532f35bec5e66b733b027cc5fe3a82') in 0.0013764 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.330067 seconds.
+  path: Assets/Animations/Grass/Grass 5 dle.anim
+  artifactKey: Guid(ed60e66a0cdf37f47b5f1b73e9984fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Grass/Grass 5 dle.anim using Guid(ed60e66a0cdf37f47b5f1b73e9984fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c75446f12896229d444c48e24603fc7') in 0.0015653 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.372244 seconds.
+  path: Assets/Animations/Grass/Grass4 1.controller
+  artifactKey: Guid(8a4b72ed8eefbb24f983ca909a9afb67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Grass/Grass4 1.controller using Guid(8a4b72ed8eefbb24f983ca909a9afb67) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '03509f9add4b004549bdad6722d8220a') in 0.001542 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.694846 seconds.
+  path: Assets/Animations/Grass/Grass5.controller
+  artifactKey: Guid(8a4b72ed8eefbb24f983ca909a9afb67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Grass/Grass5.controller using Guid(8a4b72ed8eefbb24f983ca909a9afb67) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c187bb3c882844523a5ec4542d86eaaf') in 0.0015667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 24.177566 seconds.
+  path: Assets/Props/Grass/Grass4.prefab
+  artifactKey: Guid(c2e2f9f6d59b51a45b1e63529323fd59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Grass/Grass4.prefab using Guid(c2e2f9f6d59b51a45b1e63529323fd59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1a6fe38efbcee6e07bbbe41b3e79cb68') in 0.0172588 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.352077 seconds.
+  path: Assets/Props/Grass/Grass4 1.prefab
+  artifactKey: Guid(d0c311ccaba1a1b4e97c62125fd88253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Grass/Grass4 1.prefab using Guid(d0c311ccaba1a1b4e97c62125fd88253) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd194568bed62dfe8b065595f96f21ac8') in 0.0156531 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.834567 seconds.
+  path: Assets/Props/Grass/Grass4 1.prefab
+  artifactKey: Guid(d0c311ccaba1a1b4e97c62125fd88253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Grass/Grass4 1.prefab using Guid(d0c311ccaba1a1b4e97c62125fd88253) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5085d7f79ebade8bbd69d67fb72762ce') in 0.0158628 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.326788 seconds.
+  path: Assets/Props/Grass/Grass5.prefab
+  artifactKey: Guid(d0c311ccaba1a1b4e97c62125fd88253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Grass/Grass5.prefab using Guid(d0c311ccaba1a1b4e97c62125fd88253) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ba1a2bf7b4f645c994091be3f16ef881') in 0.0153371 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Import Request.
+  Time since last request: 157.257585 seconds.
+  path: Assets/Props/Grass/Grass5.prefab
+  artifactKey: Guid(d0c311ccaba1a1b4e97c62125fd88253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Grass/Grass5.prefab using Guid(d0c311ccaba1a1b4e97c62125fd88253) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2594c9d1e644e927dcd06013655c5225') in 0.0179856 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.996 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 3.14 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.315 seconds
+Domain Reload Profiling: 2309ms
+	BeginReloadAssembly (291ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (31ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (80ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (32ms)
+	LoadAllAssembliesAndSetupDomain (612ms)
+		LoadAssemblies (454ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (278ms)
+			TypeCache.Refresh (11ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (248ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1316ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1002ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (193ms)
+			ProcessInitializeOnLoadAttributes (674ms)
+			ProcessInitializeOnLoadMethodAttributes (114ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Refreshing native plugins compatible for Editor in 2.74 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6918 unused Assets / (4.7 MB). Loaded Objects now: 7728.
+Memory consumption went from 150.8 MB to 146.1 MB.
+Total: 14.598900 ms (FindLiveObjects: 1.028300 ms CreateObjectMapping: 1.529500 ms MarkObjects: 8.126400 ms  DeleteObjects: 3.913300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 60.934845 seconds.
+  path: Assets/Props/Grass/Grass4.prefab
+  artifactKey: Guid(c2e2f9f6d59b51a45b1e63529323fd59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Grass/Grass4.prefab using Guid(c2e2f9f6d59b51a45b1e63529323fd59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f5fe8e4375024d1a05040ee1411bc27') in 0.5742687 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.936355 seconds.
+  path: Assets/Props/Grass/Grass5.prefab
+  artifactKey: Guid(d0c311ccaba1a1b4e97c62125fd88253) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Grass/Grass5.prefab using Guid(d0c311ccaba1a1b4e97c62125fd88253) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f3d7490ecc3878877910fe83d195872a') in 0.0146073 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.984789 seconds.
+  path: Assets/Props/Grass/Grass2 1.prefab
+  artifactKey: Guid(4e41e479f43cfc54b812b2262da7679b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Grass/Grass2 1.prefab using Guid(4e41e479f43cfc54b812b2262da7679b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd1427adfe163c16bdbd4df9d29723851') in 0.0104089 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.688651 seconds.
+  path: Assets/Props/Grass/Grass.prefab
+  artifactKey: Guid(4e41e479f43cfc54b812b2262da7679b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Grass/Grass.prefab using Guid(4e41e479f43cfc54b812b2262da7679b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8955c07f4ce42c6408c3dc0b192d4b6d') in 0.0111581 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.240656 seconds.
+  path: Assets/Props/Grass/Grass1.prefab
+  artifactKey: Guid(4e41e479f43cfc54b812b2262da7679b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Grass/Grass1.prefab using Guid(4e41e479f43cfc54b812b2262da7679b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5b33aab14f5fa772fc140b8b8eb8004e') in 0.0089657 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 18
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.852077 seconds.
+  path: Assets/Props/Grass/Grass1.prefab
+  artifactKey: Guid(4e41e479f43cfc54b812b2262da7679b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Grass/Grass1.prefab using Guid(4e41e479f43cfc54b812b2262da7679b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '07ab3502d6315c377027394720214b52') in 0.0070883 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.145677 seconds.
+  path: Assets/Props/Grass/Grass1.prefab
+  artifactKey: Guid(4e41e479f43cfc54b812b2262da7679b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Grass/Grass1.prefab using Guid(4e41e479f43cfc54b812b2262da7679b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e954afee76a0e8fe4151e2c2ef134fa2') in 0.0138344 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.679913 seconds.
+  path: Assets/Animations/Grass/Grass3 1.controller
+  artifactKey: Guid(130c10e62fd75ff4288ef4030058def9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Grass/Grass3 1.controller using Guid(130c10e62fd75ff4288ef4030058def9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7fa5f439f730292900d1182bbbdad1fc') in 0.0014264 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.260382 seconds.
+  path: Assets/Animations/Grass/Grass1.controller
+  artifactKey: Guid(130c10e62fd75ff4288ef4030058def9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Grass/Grass1.controller using Guid(130c10e62fd75ff4288ef4030058def9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '43f6ada158defd6cb54b13361274a3f9') in 0.0023929 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.590058 seconds.
+  path: Assets/Animations/Grass/Grass 2 idle.anim
+  artifactKey: Guid(3c43bbf2795421d4aabaf9e4eb413fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Grass/Grass 2 idle.anim using Guid(3c43bbf2795421d4aabaf9e4eb413fc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ce75d5df38686501018c220a8d87dd9') in 0.0012246 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.575101 seconds.
+  path: Assets/Animations/Grass/Grass 2 idle 1.anim
+  artifactKey: Guid(46a8c38788fc6c444a6612b04bbe21a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Grass/Grass 2 idle 1.anim using Guid(46a8c38788fc6c444a6612b04bbe21a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '09f043a99635302d106f026ec35b1ab2') in 0.0018769 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.110120 seconds.
+  path: Assets/Animations/Grass/Grass 1 Idle.anim
+  artifactKey: Guid(46a8c38788fc6c444a6612b04bbe21a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Animations/Grass/Grass 1 Idle.anim using Guid(46a8c38788fc6c444a6612b04bbe21a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '54e885236693d21d70cfef2c65913a14') in 0.0011445 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.597147 seconds.
+  path: Assets/Props/Grass/Grass1.prefab
+  artifactKey: Guid(4e41e479f43cfc54b812b2262da7679b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Props/Grass/Grass1.prefab using Guid(4e41e479f43cfc54b812b2262da7679b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd4de9a48d2857110820f21196227ac74') in 0.01591 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 20
+
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.079 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 1.73 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.270 seconds
+Domain Reload Profiling: 2347ms
+	BeginReloadAssembly (302ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (34ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (78ms)
+	RebuildCommonClasses (57ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (664ms)
+		LoadAssemblies (486ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (313ms)
+			TypeCache.Refresh (9ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (285ms)
+			ResolveRequiredComponents (16ms)
+	FinalizeReload (1270ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (998ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (224ms)
+			ProcessInitializeOnLoadAttributes (674ms)
+			ProcessInitializeOnLoadMethodAttributes (82ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 2.05 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6918 unused Assets / (4.5 MB). Loaded Objects now: 7752.
+Memory consumption went from 152.4 MB to 147.9 MB.
+Total: 11.774900 ms (FindLiveObjects: 0.895700 ms CreateObjectMapping: 1.353800 ms MarkObjects: 5.856400 ms  DeleteObjects: 3.667600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.027 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.61 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.322 seconds
+Domain Reload Profiling: 2347ms
+	BeginReloadAssembly (275ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (20ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (48ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (649ms)
+		LoadAssemblies (483ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (313ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (280ms)
+			ResolveRequiredComponents (21ms)
+	FinalizeReload (1323ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1040ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (216ms)
+			ProcessInitializeOnLoadAttributes (693ms)
+			ProcessInitializeOnLoadMethodAttributes (106ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 2.66 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6918 unused Assets / (5.0 MB). Loaded Objects now: 7754.
+Memory consumption went from 152.2 MB to 147.2 MB.
+Total: 18.121400 ms (FindLiveObjects: 1.287100 ms CreateObjectMapping: 1.958200 ms MarkObjects: 9.373400 ms  DeleteObjects: 5.500200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
