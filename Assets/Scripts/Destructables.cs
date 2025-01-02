@@ -3,7 +3,7 @@ using UnityEngine;
 public class Destructables : Attackables
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    [SerializeField] float destroyDelay = 0.5f;
+    
     [SerializeField] GameObject brokenObject;
     private ParticleSystem particleSystem;
     void Start()
@@ -17,7 +17,7 @@ public class Destructables : Attackables
         
     }
 
-    override public void Hit(RaycastHit2D hit)
+    override public void Hit(RaycastHit2D hit, float damage)
     {
         Vector2 hitDirection = -hit.normal;
         if (brokenObject != null)
@@ -27,6 +27,7 @@ public class Destructables : Attackables
             ParticleSystem.ShapeModule shape = particleSystem.shape;
             shape.rotation = new Vector3(0, hitDirection.x * 90, 0);
         }
-        Destroy(gameObject,destroyDelay);
+        Destroy(gameObject);
     }
+
 }

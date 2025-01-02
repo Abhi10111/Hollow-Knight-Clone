@@ -13,7 +13,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] bool isJumping = false;
     [SerializeField] float attackDistance = 0.2f;
     [SerializeField] float boxCastOffset = 0.02f;
-    [SerializeField] float boxCastSize = 0.02f;
+    [SerializeField] float attackBoxSize = 0.02f;
+    [SerializeField] float damage = 10.0f;
     [SerializeField] float groundDistance = 0.2f;
     [SerializeField] float jumpSpeed = 10.0f;
     [SerializeField] float walkSpeed = 4.0f;
@@ -66,13 +67,13 @@ public class PlayerController : MonoBehaviour
         if(verticalInput==0f)
         {
             attackDirection = 0;
-            hit = BoxCast(playerDirection * Vector2.right * (boxCollider.bounds.size.x * 0.5f + boxCastOffset), new Vector2(boxCastSize, boxCastSize), playerDirection * Vector2.right, attackDistance, 1 << gameObject.layer);
+            hit = BoxCast(playerDirection * Vector2.right * (boxCollider.bounds.size.x * 0.5f + boxCastOffset), new Vector2(0.01f, attackBoxSize), playerDirection * Vector2.right, attackDistance, 1 << gameObject.layer);
 
         }
         else
         {
             attackDirection = verticalInput>0?1:-1;
-            hit = BoxCast(attackDirection * Vector2.up * (boxCollider.bounds.size.y * 0.5f + boxCastOffset), new Vector2(boxCastSize, boxCastSize), attackDirection * Vector2.up, attackDistance, 1 << gameObject.layer);
+            hit = BoxCast(attackDirection * Vector2.up * (boxCollider.bounds.size.y * 0.5f + boxCastOffset), new Vector2(attackBoxSize, 0.01f), attackDirection * Vector2.up, attackDistance, 1 << gameObject.layer);
 
         }
         animator.SetInteger("Attack Direction",attackDirection);
@@ -80,7 +81,7 @@ public class PlayerController : MonoBehaviour
         if (hit.collider)
         {
             Attackables attackable=hit.collider.GetComponent<Attackables>();
-            attackable.Hit(hit);
+            attackable.Hit(hit,damage);
         }    
     }
     void AirMovement()
@@ -95,7 +96,7 @@ public class PlayerController : MonoBehaviour
 
     void CheckEnvironment()
     {
-        RaycastHit2D hit = BoxCast(Vector2.down*(boxCollider.bounds.size.y*0.5f+boxCastOffset), new Vector2(boxCastSize, boxCastSize), Vector2.down, groundDistance, groundLayer);
+        RaycastHit2D hit = BoxCast(Vector2.down*(boxCollider.bounds.size.y*0.5f+boxCastOffset), new Vector2(boxCollider.bounds.size.x/2, 0.01f), Vector2.down, groundDistance, groundLayer);
         isGrounded = hit && hit.normal.y>0.9f? true : false;
         if (isGrounded)
         {
@@ -120,7 +121,8 @@ public class PlayerController : MonoBehaviour
         rigidbody.linearVelocity=new Vector2(xSpeed,rigidbody.linearVelocity.y);
         if (xSpeed * playerDirection < 0f)
         {
-            FlipPlayer();
+            Utilities.Utilities.Flip(gameObject);
+            playerDirection *= -1;
         }
     }
 
@@ -129,11 +131,6 @@ public class PlayerController : MonoBehaviour
         AttackPressed = AttackPressed || Input.GetButtonDown("Fire1");
         jumpPressed = jumpPressed || Input.GetButtonDown("Jump");
         verticalInput += Input.GetAxis("Vertical");
-    }
-    void FlipPlayer()
-    {
-        transform.localScale = new Vector3(-transform.localScale.x,transform.localScale.y,transform.localScale.z);
-        playerDirection *= -1;
     }
     RaycastHit2D BoxCast(Vector2 start,Vector2 size, Vector2 direction, float distance, LayerMask layer)
     {
@@ -146,5 +143,10 @@ public class PlayerController : MonoBehaviour
             Debug.DrawRay(center+start, direction * distance, color);
         }
         return hit;
+    }
+
+    public void TakeDamage(float damage)
+    {
+        Debug.Log(damage);
     }
 }
