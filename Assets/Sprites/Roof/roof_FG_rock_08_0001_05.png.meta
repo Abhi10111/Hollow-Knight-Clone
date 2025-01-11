@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      roof_FG_rock_08_0001_05_0: -217992958545332176
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

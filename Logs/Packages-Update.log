@@ -42,3 +42,14 @@ The following packages were updated:
   com.unity.collab-proxy from version 2.4.4 to 2.6.0
   com.unity.inputsystem from version 1.9.0 to 1.11.2
   com.unity.visualscripting from version 1.9.4 to 1.9.5
+
+=== Sat Jan 11 23:55:22 2025
+
+Packages were changed.
+Update Mode: mergeDefaultDependencies
+
+The following packages were added:
+  com.unity.render-pipelines.universal-config@17.0.3
+  com.unity.rendering.light-transport@1.0.1
+  com.unity.render-pipelines.core@17.0.3
+  com.unity.shadergraph@17.0.3

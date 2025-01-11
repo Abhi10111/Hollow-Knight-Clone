@@ -97,7 +97,7 @@ public class PlayerController : MonoBehaviour
     void CheckEnvironment()
     {
         RaycastHit2D hit = BoxCast(Vector2.down*(boxCollider.bounds.size.y*0.5f+boxCastOffset), new Vector2(boxCollider.bounds.size.x/2, 0.01f), Vector2.down, groundDistance, groundLayer);
-        isGrounded = hit && hit.normal.y>0.9f? true : false;
+        isGrounded = hit && (hit.normal.y>0.9f||hit.normal.y<-0.9f)? true : false;
         if (isGrounded)
         {
             canJump = true;
@@ -106,7 +106,7 @@ public class PlayerController : MonoBehaviour
     }
     void ClearInputs()
     {
-        if (!readyToClear) 
+        if (!readyToClear)
         {
             return;
         }
@@ -114,6 +114,11 @@ public class PlayerController : MonoBehaviour
         jumpPressed = false;
         readyToClear = false;
         verticalInput = 0f;
+    }
+
+    void Flip()
+    {
+
     }
     void GroundMovement()
     {

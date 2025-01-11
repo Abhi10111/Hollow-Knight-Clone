@@ -25,7 +25,7 @@ public class Destructables : Attackables
             GameObject broken=Instantiate(brokenObject,transform.position+brokenObject.transform.position,transform.rotation,transform.parent);
             particleSystem = broken.GetComponent<ParticleSystem>();
             ParticleSystem.ShapeModule shape = particleSystem.shape;
-            shape.rotation = new Vector3(0, hitDirection.x * 90, 0);
+            shape.rotation = new Vector3(shape.rotation.x, hitDirection.x * 90, 0);
         }
         Destroy(gameObject);
     }
