@@ -106,7 +106,7 @@ public class PlayerController : MonoBehaviour
     }
     void ClearInputs()
     {
-        if (!readyToClear) 
+        if (!readyToClear)
         {
             return;
         }
@@ -114,6 +114,11 @@ public class PlayerController : MonoBehaviour
         jumpPressed = false;
         readyToClear = false;
         verticalInput = 0f;
+    }
+
+    void Flip()
+    {
+
     }
     void GroundMovement()
     {

@@ -37,7 +37,7 @@ public class Crawlid : Enemy
         rigidbody.linearVelocityX = 0;
         if (Mathf.Sign(transform.position.x-player.transform.position.x ) != Mathf.Sign(transform.localScale.x))
         {
-            Utilities.Utilities.Flip(gameObject);
+            Flip();
         }
         base.Attack(amount);
     }
@@ -46,14 +46,17 @@ public class Crawlid : Enemy
         rigidbody.linearVelocityX = -Mathf.Sign(transform.localScale.x)*movementSpeed;
         if (Vector2.Distance(transform.position, leftBound) < 0.2f && flipPoint == leftBound)
         {
-            Utilities.Utilities.Flip(gameObject);
-            flipPoint = rightBound;
+            Flip();
         }
         else if (Vector2.Distance(transform.position, rightBound) < 0.2f && flipPoint==rightBound)
         {
-            Utilities.Utilities.Flip(gameObject);
-            flipPoint = leftBound;
+            Flip();
         }
+    }
+    private void Flip()
+    {
+        Utilities.Utilities.Flip(gameObject);
+        flipPoint = (flipPoint == leftBound) ? rightBound : leftBound;
     }
 
     public override void Hit(RaycastHit2D hit, float damage)
@@ -70,5 +73,6 @@ public class Crawlid : Enemy
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, attackDistance);
     }
+
 
 }
