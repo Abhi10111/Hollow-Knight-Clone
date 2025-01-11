@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\abhis\\Hollow Knight\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B1543764-0DA4-E273-0056-DE172242F44A}|Assembly-CSharp.csproj|C:\\Users\\abhis\\Hollow Knight\\assets\\scripts\\enemies\\crawlid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1543764-0DA4-E273-0056-DE172242F44A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemies\\crawlid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1543764-0DA4-E273-0056-DE172242F44A}|Assembly-CSharp.csproj|C:\\Users\\abhis\\Hollow Knight\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1543764-0DA4-E273-0056-DE172242F44A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B1543764-0DA4-E273-0056-DE172242F44A}|Assembly-CSharp.csproj|c:\\users\\abhis\\hollow knight\\assets\\scripts\\enemies\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B1543764-0DA4-E273-0056-DE172242F44A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemies\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B1543764-0DA4-E273-0056-DE172242F44A}|Assembly-CSharp.csproj|C:\\Users\\abhis\\Hollow Knight\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B1543764-0DA4-E273-0056-DE172242F44A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B1543764-0DA4-E273-0056-DE172242F44A}|Assembly-CSharp.csproj|C:\\Users\\abhis\\Hollow Knight\\assets\\scripts\\destructables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{B1543764-0DA4-E273-0056-DE172242F44A}|Assembly-CSharp.csproj|c:\\users\\abhis\\hollow knight\\assets\\scripts\\destructables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B1543764-0DA4-E273-0056-DE172242F44A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\destructables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1543764-0DA4-E273-0056-DE172242F44A}|Assembly-CSharp.csproj|C:\\Users\\abhis\\Hollow Knight\\assets\\scripts\\enemies\\crawlid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1543764-0DA4-E273-0056-DE172242F44A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemies\\crawlid.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1543764-0DA4-E273-0056-DE172242F44A}|Assembly-CSharp.csproj|C:\\Users\\abhis\\Hollow Knight\\assets\\scripts\\utilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1543764-0DA4-E273-0056-DE172242F44A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\utilities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1543764-0DA4-E273-0056-DE172242F44A}|Assembly-CSharp.csproj|C:\\Users\\abhis\\Hollow Knight\\assets\\scripts\\enemies\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1543764-0DA4-E273-0056-DE172242F44A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemies\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1543764-0DA4-E273-0056-DE172242F44A}|Assembly-CSharp.csproj|C:\\Users\\abhis\\Hollow Knight\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1543764-0DA4-E273-0056-DE172242F44A}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B1543764-0DA4-E273-0056-DE172242F44A}|Assembly-CSharp.csproj|C:\\Users\\abhis\\Hollow Knight\\assets\\scripts\\attackables.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,11 +38,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\abhis\\Hollow Knight\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\abhis\\Hollow Knight\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
+              "ViewState": "AgIAAI4AAAAAAAAAAAAUwGMAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-11T17:47:23.616Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Utilities.cs",
+              "DocumentMoniker": "C:\\Users\\abhis\\Hollow Knight\\Assets\\Scripts\\Utilities.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Utilities.cs",
+              "ToolTip": "C:\\Users\\abhis\\Hollow Knight\\Assets\\Scripts\\Utilities.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Utilities.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T16:54:50.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Attackables.cs",
               "DocumentMoniker": "C:\\Users\\abhis\\Hollow Knight\\Assets\\Scripts\\Attackables.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Attackables.cs",
@@ -50,67 +79,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Destructables.cs",
               "DocumentMoniker": "C:\\Users\\abhis\\Hollow Knight\\Assets\\Scripts\\Destructables.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Destructables.cs",
               "ToolTip": "C:\\Users\\abhis\\Hollow Knight\\Assets\\Scripts\\Destructables.cs",
               "RelativeToolTip": "Assets\\Scripts\\Destructables.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwCEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T04:45:33.04Z"
+              "WhenOpened": "2025-01-04T04:45:33.04Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Enemy.cs",
               "DocumentMoniker": "C:\\Users\\abhis\\Hollow Knight\\Assets\\Scripts\\Enemies\\Enemy.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\Enemy.cs",
               "ToolTip": "C:\\Users\\abhis\\Hollow Knight\\Assets\\Scripts\\Enemies\\Enemy.cs",
               "RelativeToolTip": "Assets\\Scripts\\Enemies\\Enemy.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T04:44:48.575Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-04T04:44:48.575Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Crawlid.cs",
               "DocumentMoniker": "C:\\Users\\abhis\\Hollow Knight\\Assets\\Scripts\\Enemies\\Crawlid.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Enemies\\Crawlid.cs",
               "ToolTip": "C:\\Users\\abhis\\Hollow Knight\\Assets\\Scripts\\Enemies\\Crawlid.cs",
               "RelativeToolTip": "Assets\\Scripts\\Enemies\\Crawlid.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAwDQAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T04:44:15.157Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-04T04:44:15.157Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "GameManager.cs",
               "DocumentMoniker": "C:\\Users\\abhis\\Hollow Knight\\Assets\\Scripts\\GameManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
               "ToolTip": "C:\\Users\\abhis\\Hollow Knight\\Assets\\Scripts\\GameManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-04T04:11:05.779Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PlayerController.cs",
-              "DocumentMoniker": "C:\\Users\\abhis\\Hollow Knight\\Assets\\Scripts\\PlayerController.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
-              "ToolTip": "C:\\Users\\abhis\\Hollow Knight\\Assets\\Scripts\\PlayerController.cs",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-28T10:11:01.665Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-04T04:11:05.779Z"
             }
           ]
         }
